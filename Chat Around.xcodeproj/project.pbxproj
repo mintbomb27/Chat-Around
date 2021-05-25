@@ -20,6 +20,7 @@
 		8C0CEE0D26568E4F00077876 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CEE0C26568E4F00077876 /* Alerts.swift */; };
 		8C0CEE162656959000077876 /* GoogleAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CEE152656959000077876 /* GoogleAuth.swift */; };
 		8C0CEE3026575BD800077876 /* FirebaseCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CEE2F26575BD800077876 /* FirebaseCM.swift */; };
+		8C0CEE33265A8B1800077876 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CEE32265A8B1800077876 /* RegViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8C0CEE0C26568E4F00077876 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		8C0CEE152656959000077876 /* GoogleAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuth.swift; sourceTree = "<group>"; };
 		8C0CEE2F26575BD800077876 /* FirebaseCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCM.swift; sourceTree = "<group>"; };
+		8C0CEE32265A8B1800077876 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
 		B2E0C9BC1BC771DD98918010 /* Pods-Chat Around.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Around.release.xcconfig"; path = "Target Support Files/Pods-Chat Around/Pods-Chat Around.release.xcconfig"; sourceTree = "<group>"; };
 		BBC2465EC3A9823E0FF5F2AC /* Pods-Chat Around.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Around.debug.xcconfig"; path = "Target Support Files/Pods-Chat Around/Pods-Chat Around.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				8C0CEDD026502E7600077876 /* AppDelegate.swift */,
 				8C0CEDD226502E7600077876 /* SceneDelegate.swift */,
 				8C0CEDD426502E7600077876 /* ViewController.swift */,
+				8C0CEE32265A8B1800077876 /* RegViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				8C0CEE3026575BD800077876 /* FirebaseCM.swift in Sources */,
 				8C0CEE162656959000077876 /* GoogleAuth.swift in Sources */,
 				8C0CEE0D26568E4F00077876 /* Alerts.swift in Sources */,
+				8C0CEE33265A8B1800077876 /* RegViewController.swift in Sources */,
 				8C0CEE0926568DB400077876 /* AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

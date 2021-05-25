@@ -14,6 +14,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Auth.auth().addStateDidChangeListener({
+            (auth, user) in
+            if(user != nil){
+                UserDefaults.standard.set(true, forKey: "isSignedIn")
+                let registerVC = self.storyboard?.instantiateViewController(identifier: "regVC") as! RegViewController
+                self.navigationController?.pushViewController(registerVC, animated: true)
+            }
+        })
     }
     
     //MARK: GOOGLE AUTHENTICATION

@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="675" y="90"/>
         </scene>
-        <!--View Controller-->
+        <!--Reg View Controller-->
         <scene sceneID="8FX-bp-tbf">
             <objects>
-                <viewController id="bJN-gd-C8b" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="regVC" id="bJN-gd-C8b" customClass="RegViewController" customModule="Chat_Around" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xyF-ku-HgA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,10 +110,25 @@
             </objects>
             <point key="canvasLocation" x="1497.1014492753625" y="90.401785714285708"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="7Ff-uR-Voc">
+            <objects>
+                <viewController id="fv6-gM-SkG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ESd-N6-C39">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="UzU-EZ-htw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ep-ax-icM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2236" y="90"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="mWZ-zT-R5h">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="OFw-nV-TKk" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navVC" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="OFw-nV-TKk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QTG-a2-V9t">
                         <autoresizingMask key="autoresizingMask"/>
