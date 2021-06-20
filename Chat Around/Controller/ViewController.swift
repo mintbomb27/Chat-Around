@@ -36,7 +36,6 @@ class ViewController: UIViewController {
     @IBAction func appleSignIn(_ sender: Any) {
         let request = requestAppleID()
         let controller = ASAuthorizationController(authorizationRequests: [request])
-        
         controller.presentationContextProvider = self
         controller.delegate = self
         controller.performRequests()
